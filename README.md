@@ -112,8 +112,6 @@ Papers must be a maximum length of 4 pages, excluding references.
 The program committee will select the papers based on originality,
 presentation, and technical quality for spotlight and/or poster presentation.
 
-Selected papers will be invited to publish in Journal of Health Informatics Research (https://www.springer.com/journal/41666)
-
 ---------------------------------
 Organizers:
 ---------------------------------
