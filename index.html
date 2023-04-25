@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Workshop on Applied Data Science for Healthcare</title>
+  <meta charset="utf-8"></meta>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+  <!-- Loading Bootstrap/Yet theme -->
+  <link href="./packages/bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+  <link rel="shortcut icon" href="./packages/favicon-book.ico">
+
+  <!-- Custom styles for this template -->
+  <link href="appearance.css" rel="stylesheet"/>
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+
+  <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">DSHealth 2023</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-links">
+      <!-- Tab panes -->
+      <ul id="tabs" class="nav nav-tabs navbar-right" role="tablist" >
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+        <!-- <li role="presentation"><a href="#program" aria-controls="program" role="tab" data-toggle="tab">Program</a></li> -->
+        <!-- <li role="presentation"><a href="#papers" aria-controls="papers" role="tab" data-toggle="tab">Papers</a></li> -->
+        <li role="presentation"><a href="#call" aria-controls="call" role="tab" data-toggle="tab">Call</a></li>
+        <li role="presentation"><a href="#dates" aria-controls="dates" role="tab" data-toggle="tab">Dates</a></li>
+        <!-- <li role="presentation"><a href="#speakers" aria-controls="speakers" role="tab" data-toggle="tab">Speakers</a></li> -->
+        <li role="presentation"><a href="#organizers" aria-controls="organizers" role="tab" data-toggle="tab">Organizers</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="wrapper">
+  <div class="jumbotron" id="about">
+    <h2>
+      Workshop on Applied Data Science for Healthcare
+    </h2>
+    <h4>Applications and New Frontiers of Generative Models for Healthcare</h4>
+    <p style="padding-top:10px">
+      <!-- <span class="glyphicon glyphicon-globe"></span>&nbsp;Location: Join us virtually at <a href="https://virtual.2021.kdd.org/workshop_WS-36-B.html"  target="_blank">KDD Virtual platform</a><br/> -->
+      <span class="glyphicon glyphicon-calendar"></span>&nbsp;Workshop Date: 2023, August 07 <br/>
+      <!-- <span class="glyphicon glyphicon-calendar"></span>&nbsp;Workshop Date: 2022, August 14, 9am - 5pm (<a href="https://savvytime.com/converter/sgt-to-cet-edt-pdt/aug-15-2021/11pm" target="_blank">SGT</a>)<br/> -->
+      <a href="https://twitter.com/HealthDs" target="_blank"><i class="fa fa-twitter"></i> Follow us on  Twitter</a><br/>
+    </p>
+  </div>
+</div>
+<!--end jumbotron -->
+
+<div class="container">
+ <div class="row">
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home"><br>
+      <!-- <div class="col-xs-12" id="news"> -->
+          <!-- <h2 style="color:red;">News</h2> -->
+          <!-- <ul> -->
+              <!-- <li>Accepted paper list published. See <a href="#papers" target="_blank">Papers</a>.<br/> -->
+                  <!-- <a href="#program" target="_blank">Program</a> announced -  -->
+                  <!-- <span style="color:red;"><strong>KDD registration (or KDD workshop registration) required to attend</strong>. -->
+              <!-- </li> -->
+              <!-- [> <li>Paper submission deadline extended to <] -->
+                  <!-- [> <span style="color:red;"><strong>Jun 01, 2021</strong></span>.  <] -->
+                  <!-- [> <a href="#dates" target="_blank">See updated dates</a> <] -->
+              <!-- [> </li> <] -->
+              <!-- [> <li><b>KDD Health Day and DSHealth will be held jointly this year</b></li> <] -->
+              <!-- <li>Selected papers will be invited to publish in -->
+                   <!-- <a href="https://www.springer.com/journal/41666" target="_blank">Journal of Healthcare Informatics Research (JHIR)</a>.  -->
+                   <!-- Please see <a href="#call" target="_blank">CFP</a> for more details. -->
+              <!-- </li> -->
+              <!-- [> <li><a href="#speaker-banner">Invited Speaker</a> lineup published. </li> <] -->
+                  <!-- [> [> Selected papers will be part of the KDD Health Day poster <] <] -->
+                  <!-- [> [> session in the evening.  <] <] -->
+                  <!-- [> [> See <a href="#papers" target="_blank">Papers</a>.</li> <] <] -->
+              <!-- [> [> <li>Paper acceptance notification updated to Jun 12, 2019</li> <] <] -->
+              <!-- [> [> [> <li>Flyer released <a href="MLMH2018_Flyer.pdf" target="_blank">See Here</a></li> <] <] <] -->
+              <!-- [> [> <li><strong>Announcing $500 travel grant each for the best paper and the best student paper, <] <] -->
+                      <!-- [> [> selected for the workshop. <] <] -->
+                 <!-- [> [> Please see updated <a href="#call" target="_blank">call for papers</a>. </strong></li> <] <] -->
+              <!-- [> [> [> <li>We have been selected to be part of <] <] <] -->
+                  <!-- [> [> [> <a href="http://www.kdd.org/kdd2018/health-day-at-kdd" target="_blank">KDD Health Day</a> <] <] <] -->
+              <!-- [> [> [> </li> <] <] <] -->
+          <!-- </ul> -->
+      <!-- </div> -->
+      <!-- end news -->
+
+      <div class="col-xs-12" id="overview">
+        <h2>Overview</h2>
+        <p>
+        Generative models have a long history and there are many application areas in
+        medical machine learning (ML) and artificial intelligence (AI). With the
+        development in deep neural networks, researchers focused on Generative
+        Adversarial Networks (GANs), Variational Autoencoders (VAEs), and
+        autoregressive models in the past years. More recently, very large deep
+        generative models have gained popularity, including the large language models
+        (LLMs) such as Generative Pre-trained Transformer 3 (GPT-3) and text-to-image
+        diffusion models such as Stable Diffusion. In healthcare research, one of the
+        most common applications of generative models has been the generation of
+        synthetic data for training of machine learning models. It is often used to
+        increase representation of patient subgroups to improve generalization and
+        mitigate algorithmic biases. This is especially valuable in application domains
+        where data is hard to come by. The generative models can also be used for
+        specific model evaluation purposes (e.g., within a robustness or
+        generalizability assessment; virtual clinical trials). They can help to
+        generate synthetic ground truth data when labeling of data is extremely
+        burdensome. Moreover, generative models have been successfully applied in data
+        preprocessing or enhancement, such as image reconstruction or denoising deep
+        learning algorithms in the medical imaging space. While such generative models
+        have proven their utility in the health domain, many open questions remain with
+        regard to the approaches for evaluation of their effectiveness and safety.
+        Testing and evaluation of such models require specific considerations. Taking
+        the assessment of the gap between the generated data and the reality — so
+        called Sim2Real challenge — as an example, it is often unclear how to (i)
+        quantify this domain gap and its impact on downstream performance in a
+        meaningful manner and (ii) reduce it in order to fully leverage the potential
+        of generative models. New challenges are also emerging on a more grand scale.
+        The recent advances in Large Language Models (LLMs) makes the generation of
+        data even more effortless. However, the misinformation that is generated with
+        such models may cause a “pollution” of data for future model training. We can
+        expect an increased need for effective fact checking approaches. Despite the
+        huge growth of this area of research, the actual use of NLP technology for fact
+        checking is still in its infancy. In this one day workshop we would like to
+        discuss some of the most common applications of generative models in the ML/AI
+        research in the healthcare domain, the current challenges and also explore what
+        are the potential new areas of application
+        </p>
+
+        <h2>Previous Iterations</h2>
+        <ul>
+            <li><a href="https://dshealthkdd.github.io/dshealth-2022/" target="_blank">KDD Health Day - DSHealth 2022</a>:
+                2022 KDD Workshop on Applied Data Science for Healthcare: Transparent and Human-centered AI
+            </li>
+            <li><a href="https://dshealthkdd.github.io/dshealth-2021/" target="_blank">KDD Health Day - DSHealth 2021</a>:
+                Joint KDD 2021 Health Day and 2021 KDD Workshop on Applied Data Science for Healthcare State of XAI and trustworthiness in Health
+            </li>
+            <li><a href="https://dshealthkdd.github.io/dshealth-2020/" target="_blank">DSHealth 2020</a>:
+                2020 KDD Workshop on Applied Data Science for Healthcare: Trustable and Actionable AI for Healthcare
+            </li>
+            <li><a href="https://dshealthkdd.github.io/dshealth-2019/" target="_blank">DSHealth 2019</a>:
+                2019 KDD Workshop on Applied Data Science for Healthcare: Bridging the Gap between Data and Knowledge
+            </li>
+            <li><a href="https://mlmhworkshop.github.io/mlmh-2018/" target="_blank">MLMH 2018</a>:
+                2018 KDD Workshop on Machine Learning for Medicine and Healthcare
+            </li>
+        </ul>
+      </div>
+      <!-- end overview -->
+
+      <!-- <div class="row" id="speaker-banner"> -->
+        <!-- <h2>Invited Speakers</h2> -->
+        <!-- <div class="col-md-12" id="speaker-banner"> -->
+          <!-- <div class="col-md-4"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/garcia_headshot.png"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="https://www.linkedin.com/in/victor-garcia-474629198/" target="_blank">Victor Garcia</a> -->
+            <!-- <br/> -->
+            <!-- <span>ORISE Fellow at FDA</span>  -->
+          <!-- </div> -->
+
+          <!-- <div class="col-md-4"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/Michel_Friesenhahn.jpg"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="https://www.linkedin.com/in/michel-friesenhahn-74494813/" target="_blank">Michel Friesenhahn</a> -->
+            <!-- <br/> -->
+            <!-- <span>Expert Statistical Scientist at Genentech</span> -->
+          <!-- </div> -->
+
+          <!-- <div class="col-md-4"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/Li-Zhou-e1636995031637.png"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="https://connects.catalyst.harvard.edu/Profiles/display/Person/74124" target="_blank">Li Zhou </a> -->
+            <!-- <br/> -->
+            <!-- <span>Associate Professor of Medicine, Harvard Medical School; Lead Investigator, Brigham and Women's Hospital</span> -->
+          <!-- </div> -->
+        <!-- </div> -->
+        <!-- [> end first row of speakers <] -->
+        <!-- <div class="col-md-12"> -->
+          <!-- <div class="col-md-4"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/Lina_Sulieman.jpeg"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="https://www.vumc.org/dbmi/person/lina-sulieman-phd" target="_blank">Lina Sulieman </a> -->
+            <!-- <br/> -->
+            <!-- <span>Research Assistant Professor, Dept. of Biomedical Informatics, VUMC; Member, All of Us Data and Research Center</span> -->
+          <!-- </div> -->
+
+          <!-- <div class="col-md-4"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/Jimeng.png"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="https://www.sunlab.org/" target="_blank">Jimeng Sun</a> -->
+            <!-- <br/> -->
+            <!-- <span>Health Innovation Professor, Computer Science Department and Carle's Illinois College of Medicine, University of Illinois Urbana Champaign</span> -->
+          <!-- </div> -->
+
+          <!-- <div class="col-md-4"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/tianfan.jpeg"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="https://futianfan.github.io/" target="_blank">Tianfan Fu </a> -->
+            <!-- <br/> -->
+            <!-- <span>PhD Candidate, Dept. of Computational Science and Engineering, Georgia Institute of Technology</span> -->
+          <!-- </div> -->
+        <!-- </div> -->
+        <!-- [> end second row of speakers <] -->
+      <!-- </div> -->
+      <!-- [> end speaker banner <] -->
+    </div>
+    <!-- end workshop description -->
+    
+    <!-- <div role="tabpanel" class="tab-pane" id="program"><br> -->
+      <!-- <h2>Program</h2> -->
+      <!-- <p>DSHealth 2022 will be held     -->
+         <!-- on August 14, 2022.  See detailed schedule below.  -->
+         <!-- Selected papers will be invited to publish in  -->
+          <!-- <a href="https://www.springer.com/journal/41666" target="_blank">Journal of Healthcare Informatics Research</a> -->
+         <!-- <br/> -->
+         <!-- <br/> -->
+         <!-- Please refer to the <a href="https://kdd.org/kdd2022/programAgenda.html" target="_blank">KDD 2022 program</a> -->
+         <!-- for up-to-date changes on venues and timings. -->
+      <!-- </p> -->
+      
+      <!-- <div class="col-xm-12"> -->
+        <!-- <h3>DSHealth Schedule</h3> -->
+        <!-- [> <p>Venue: Virtual. (Zoom link will be provided in the KDD virtual conference app - KDD registration is required)  <] -->
+          <!-- [> [> &nbsp;<button type="button" class="btn btn-sm btn-secondary"> <] <] -->
+             <!-- [> [> <a href="https://kddvirtual2020.vfairs.com" target="_blank">KDD Virtual Conference Link</a> <] <] -->
+          <!-- [> [> </button> <] <] -->
+          <!-- [> [> &nbsp;<button type="button" class="btn btn-sm btn-secondary"> <] <] -->
+             <!-- [> [> <a href="https://whova.com/portal/webapp/kdd_202008/Agenda/1140638" target="_blank">Whova link</a> <] <] -->
+          <!-- [> [> </button> <] <] -->
+        <!-- [> </p> <] -->
+        <!-- <div class="table-responsive" > -->
+          <!-- <table class="table table-hover"> -->
+            <!-- <thead> -->
+              <!-- [> <th class="col-md-2">SGT</th> <] -->
+              <!-- [> <th class="col-md-2">CEST</th> <] -->
+              <!-- <th class="col-md-2">Time (EDT)</th> -->
+              <!-- <th class="col-md-10">Event</th> -->
+            <!-- </thead> -->
+            <!-- <tbody> -->
+              <!-- <tr class = "info"> -->
+                <!-- <td>Aug 14, 08:00 am - 12:00 pm</td> -->
+                <!-- <td>Session 1</td> -->
+              <!-- </tr> -->
+              <!-- <tr > -->
+                <!-- <td>8:00 am - 8:10 am</td> -->
+                <!-- <td>Introduction</td> -->
+              <!-- </tr> -->
+              <!-- <tr class = "active"> -->
+                <!-- <td>8:10 am - 09:10 am</td> -->
+                <!-- <td>Invited Talk: -->
+            <!-- Li Zhou </td> -->
+              <!-- </tr> -->
+              <!-- <tr > -->
+                <!-- <td>09:10 am - 09:40 am</td> -->
+                <!-- <td>Lightening Talk (9 papers)<br/> -->
+                    <!-- <br/> -->
+<!-- <strong>#161:&nbsp;&nbsp;</strong>Distillation to Enhance the Portability of Risk Models Across Institutions with Large Patient Claims Databases<br/> -->
+<!-- <strong>#744:&nbsp;&nbsp;</strong>FedPseudo: Pseudo value-based Deep Learning Models for Federated Survival Analysis<br/> -->
+<!-- <strong>#2322:&nbsp;&nbsp;</strong>Joint Application of the Target Trial Causal Framework and Machine Learning Modeling to Optimize Antibiotic Therapy: Use Case on Acute Bacterial Skin and Skin Structure Infections due to Methicillin-resistant Staphylococcus aureus<br/> -->
+<!-- <strong>#3660:&nbsp;&nbsp;</strong>Pseudo value-based Deep Neural Networks for Multistate Survival Analysis<br/> -->
+<!-- <strong>#4905:&nbsp;&nbsp;</strong>Using Interpretable Machine Learning to Predict Maternal and Fetal Outcomes<br/> -->
+<!-- <strong>#6154:&nbsp;&nbsp;</strong>Variational Temporal Deconfounder for Individualized Treatment Effect Estimation from Longitudinal Observational Data<br/> -->
+<!-- <strong>#6186:&nbsp;&nbsp;</strong>Towards Neural Numeric-To-Text Generation From Temporal Personal Health Data<br/> -->
+<!-- <strong>#6772:&nbsp;&nbsp;</strong>Exploring Runtime Decision Support for Trauma Resuscitation<br/> -->
+<!-- <strong>#7099:&nbsp;&nbsp;</strong>Boosting the interpretability of clinical risk scores with intervention predictions<br/> -->
+<!-- <strong>#9095:&nbsp;&nbsp;</strong>Flexible Group Fairness Metrics for Survival Analysis<br/> -->
+                <!-- </td> -->
+              <!-- </tr> -->
+              <!-- <tr class = "info"> -->
+                <!-- <td>9:40 am - 10:00 am</td> -->
+                <!-- <td>Break + Poster</td> -->
+              <!-- </tr> -->
+              <!-- <tr > -->
+                <!-- <td>10:00 am - 11:00 am</td> -->
+                <!-- <td>Invited talk: Jimeng Sun</td> -->
+              <!-- </tr> -->
+              <!-- <tr class = "active"> -->
+                <!-- <td>11:00 am - 12:00 am</td> -->
+                <!-- <td>Invited Talk: Lina Sulieman </td> -->
+              <!-- </tr> -->
+              <!-- <tr class = "info"> -->
+                <!-- <td>12:00 pm - 1:00 pm</td> -->
+                <!-- <td>Lunch Break</td> -->
+              <!-- </tr> -->
+              <!-- <tr class = "info"> -->
+                <!-- <td>Aug 14, 1:00 pm - 5:00 pm</td> -->
+                <!-- <td>Session 2</td> -->
+              <!-- </tr> -->
+              <!-- <tr class = "active"> -->
+                <!-- <td>1:00 pm - 2:00 pm</td> -->
+                <!-- <td>Invited Talk: Michel Friesenhahn</td> -->
+              <!-- </tr> -->
+              <!-- <tr > -->
+                <!-- <td>2:00 pm - 3:00 pm</td> -->
+                <!-- <td>Invited Talk: Victor Garcia</td> -->
+              <!-- </tr> -->
+              <!-- <tr class = "info"> -->
+                <!-- <td>3:00 pm - 3:30 pm</td> -->
+                <!-- <td>Break</td> -->
+              <!-- </tr> -->
+              <!-- <tr > -->
+                <!-- <td>3:30 pm - 4:00 pm</td> -->
+                <!-- <td>Poster</td> -->
+              <!-- </tr> -->
+              <!-- <tr > -->
+                <!-- <td>4:00 pm - 4:50 pm</td> -->
+                <!-- <td>Panel discussion</td> -->
+              <!-- </tr> -->
+              <!-- <tr class = "active"> -->
+                <!-- <td>4:50 pm - 5:00 pm</td> -->
+                <!-- <td>Closing session</td> -->
+              <!-- </tr> -->
+            <!-- </tbody> -->
+          <!-- </table> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
+    <!-- end program -->
+
+    <!-- <div role="tabpanel" class="tab-pane" id="speakers"><br> -->
+      <!-- <h2>Invited Speaker</h2> -->
+
+      <!-- <div class="col-md-12" id="speaker-1"> -->
+          <!-- <h4><a href="https://www.hwanglab.org/" target="_blank"> -->
+                  <!-- <span class="glyphicon glyphicon-globe"/> -->
+              <!-- </a> -->
+          <!-- Dr. Tae Hyun Hwang, Cleveland Clinic Lerner College of Medicine, USA. -->
+          <!-- </h4> -->
+          <!-- <br/> -->
+        <!-- <div class="row"> -->
+          <!-- <div class="col-md-10 col-sm-12"> -->
+             <!-- <p><strong>Bio:</strong> -->
+                <!-- Tae Hyun Hwang received his Ph.D. in Computer Science (Machine Learning and -->
+                <!-- Computational Biology) at the University of Minnesota Twin-Cites at 2011. He and his research -->
+                <!-- group lead machine learning and AI research at the Cleveland Clinic. Prior to his appointment at the Cleveland Clinic, he was a Research Associate in the Department of Computational Biology and Bioinformatics at Genentech and was a tenure-track faculty at the University of Texas -->
+                <!-- Southwestern Medical Center (UTSW) where he served as a co-director for UTSW Kidney -->
+                <!-- Cancer SPORE and led a computational team for UT Lung Cancer SPORE. He currently serves as a bioinformatics core director for NASA Specialized Centers of Research (NSCOR) as well as committees of various Machine Learning, Data Mining, and AI conferences. -->
+                <!-- <br/> -->
+                <!-- He and his lab members from Translational Machine Learning and AI lab at the Cleveland Clinic are working on developing novel machine learning and AI algorithms that are readily applicable in the clinical setting to help patients with a lethal disease. His work has been published more -->
+                <!-- than 40 peer-reviewed journals such as Nature, Cell, Nature Neuroscience, and Cancer Cell, as -->
+                <!-- well as top machine learning, data mining and AI conferences including IEEE International -->
+                <!-- Conference on Data Mining (ICDM) and SIAM International Conference on Data Mining (SDM). -->
+                <!-- He is a recipient of the American Cancer Society Young Investigator Award and NCI UTSW-MD -->
+                <!-- Anderson Lung Cancer SPORE Career Development Award. -->
+              <!-- </p> -->
+          <!-- </div> -->
+          <!-- <div class="col-md-2 hidden-sm hidden-xs pull-right"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/tae_hyun_hwang.jpg"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img>  -->
+          <!-- </div> -->
+        <!-- </div> -->
+
+        <!-- <div class="table-responsive"> -->
+          <!-- <table class="table table-borderless"> -->
+            <!-- <tr> -->
+                <!-- <td class="col-sm-1"><span class="glyphicon glyphicon-bullhorn"></span> Title</em></td> -->
+                <!-- <td class="col-sm-11"> Deploying AI in healthcare in the wild: Lessons, challenges, and opportunities -->
+                <!-- </td> -->
+            <!-- </tr> -->
+            <!-- <tr> -->
+                <!-- <td><span class="glyphicon glyphicon-calendar"></span> Time</em></td> -->
+                <!-- <td>10:00 am - 10:30 am</td> -->
+            <!-- </tr> -->
+            <!-- <tr> -->
+                <!-- <td><span class="glyphicon glyphicon-home"></span> Venue</em></td> -->
+                <!-- <td>Cook - Street Level, Egan</td> -->
+            <!-- </tr> -->
+          <!-- </table> -->
+         <!-- </div> -->
+      <!-- </div> -->
+      <!-- [> end speaker 1 <] -->
+
+
+      <!-- <h2>Panel</h2> -->
+      <!-- <br/> -->
+
+      <!-- <div class="row" id="speaker-2"> -->
+        <!-- <div class="col-md-4"> -->
+          <!-- <div class="table-responsive"> -->
+            <!-- <table class="table table-borderless"> -->
+              <!-- <tr> -->
+                  <!-- <td class="col-sm-4"><span class="glyphicon glyphicon-bullhorn"></span> Topic</em></td> -->
+                  <!-- <td class="col-sm-8">Relevance and importance of knowledge -->
+                      <!-- driven AI, in order to address real challenges and make an -->
+                      <!-- impact in healthcare -->
+                  <!-- </td> -->
+              <!-- </tr> -->
+              <!-- <tr> -->
+                  <!-- <td><span class="glyphicon glyphicon-calendar"></span> Time</em></td> -->
+                  <!-- <td>3:40 pm - 4:30 pm</td> -->
+              <!-- </tr> -->
+              <!-- <tr> -->
+                  <!-- <td><span class="glyphicon glyphicon-home"></span> Venue</em></td> -->
+                  <!-- <td>Summit 3 - Ground Level, Egan</td> -->
+              <!-- </tr> -->
+            <!-- </table> -->
+          <!-- </div> -->
+        <!-- </div> -->
+
+        <!-- <div class="col-md-8"> -->
+          <!-- <div class="col-md-2"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/fred_rahmanian.jpeg"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="https://www.linkedin.com/in/fredrahmanian/" target="_blank">Fred Rahmanian</a> -->
+            <!-- <strong>(Moderator)</strong>  -->
+          <!-- </div> -->
+
+          <!-- <div class="col-md-2"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/jasmine_wilkerson.jpeg"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="https://www.linkedin.com/in/jasmine-wilkerson/" target="_blank">Jasmine Wilkerson</a> -->
+          <!-- </div> -->
+
+          <!-- <div class="col-md-2"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/lisa_weavind.jpg"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="https://www.vumc.org/burn/person/lisa-weavind-md" target="_blank">Lisa Weavind</a> -->
+          <!-- </div> -->
+
+          <!-- <div class="col-md-2"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/fei_wang.jpeg"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="https://sites.google.com/site/feiwang03/" target="_blank">Fei Wang</a> -->
+          <!-- </div> -->
+
+          <!-- <div class="col-md-2"> -->
+            <!-- <img class="img-responsive img-circle" src="./assets/maria_Spiliopoulou.png"  -->
+            <!-- style="max-height: 150px;" -->
+            <!-- alt="Profile Image"></img> <br/> -->
+            <!-- <a href="http://www.kmd.ovgu.de/Team/Academic+Staff/Myra+Spiliopoulou.html" target="_blank">Maria Spiliopoulou</a> -->
+          <!-- </div> -->
+        <!-- </div> -->
+
+      <!-- </div> -->
+      <!-- [> end speaker 1 <] -->
+    <!-- </div> -->
+    <!-- end speakers -->
+    
+    <!-- <div role="tabpanel" class="tab-pane" id="papers"><br> -->
+      <!-- <h2>Accepted Papers</h2> -->
+      <!-- <p> -->
+      <!-- We have accepted 10 papers for presentation at the workshop. All papers -->
+      <!-- will be presented as posters within the workshop.  -->
+      <!-- PDF version of the final papers, if provided by the authors, are hyperlinked below. -->
+      <!-- </p> -->
+
+
+      <!-- <div class="col-xm-12"> -->
+        <!-- [> <h3>Spotlight Presentations</h3> <] -->
+        <!-- <table class="table table-borderless"> -->
+          <!-- <tbody> -->
+            <!-- <tr><td> -->
+              <!-- <strong>#161&nbsp;&nbsp;</strong> -->
+              <!-- <a href="https://arxiv.org/abs/2207.02445" target="_blank">Distillation to Enhance the Portability of Risk Models Across Institutions with Large Patient Claims Databases</a> -->
+              <!-- <em>Steve Nyemba, Chao Yan, Ziqi Zhang, Amol Rajmane, Pablo Meyer, Prithwish Chakraborty and Bradley Malin</em> -->
+            <!-- </td></tr> -->
+
+            <!-- <tr><td> -->
+              <!-- <strong>#744&nbsp;&nbsp;</strong> -->
+              <!-- <a href="http://arxiv.org/abs/2207.05247" target="_blank">FedPseudo: Pseudo value-based Deep Learning Models for Federated Survival Analysis</a> -->
+              <!-- <em>Md Mahmudur Rahman and Sanjay Purushotham</em> -->
+            <!-- </td></tr> -->
+
+            <!-- <tr><td> -->
+              <!-- <strong>#2322&nbsp;&nbsp;</strong> -->
+              <!-- <a href="https://doi.org/10.48550/arXiv.2207.07458" target="_blank">Joint Application of the Target Trial Causal Framework and Machine Learning Modeling to Optimize Antibiotic Therapy: Use Case on Acute Bacterial Skin and Skin Structure Infections due to Methicillin-resistant Staphylococcus aureus</a> -->
+              <!-- <em>Inyoung Jun, Simone Marini, Christina A. Boucher, J. Glenn Morris, Jiang Bian and Mattia Prosperi</em> -->
+            <!-- </td></tr> -->
+
+            <!-- <tr><td> -->
+              <!-- <strong>#3660&nbsp;&nbsp;</strong> -->
+              <!-- <a href="http://arxiv.org/abs/2207.05291" target="_blank">Pseudo value-based Deep Neural Networks for Multistate Survival Analysis</a> -->
+              <!-- <em>Md Mahmudur Rahman and Sanjay Purushotham</em> -->
+            <!-- </td></tr> -->
+
+            <!-- <tr><td> -->
+              <!-- <strong>#4905&nbsp;&nbsp;</strong> -->
+              <!-- <a href="https://arxiv.org/abs/2207.05322" target="_blank">Using Interpretable Machine Learning to Predict Maternal and Fetal Outcomes</a> -->
+              <!-- <em>Tomas Bosschieter, Zifei Xu, Hui Lan, Ben Lengerich, Harsha Nori, Kristin Sitcov, Vivienne Souter and Rich Caruana</em> -->
+            <!-- </td></tr> -->
+
+            <!-- <tr><td> -->
+              <!-- <strong>#6154&nbsp;&nbsp;</strong> -->
+              <!-- <a href="https://arxiv.org/abs/2207.11251" target="_blank">Variational Temporal Deconfounder for Individualized Treatment Effect Estimation from Longitudinal Observational Data</a> -->
+              <!-- <em>Zheng Feng, Mattia Prosperi and Jiang Bian</em> -->
+            <!-- </td></tr> -->
+
+            <!-- <tr><td> -->
+              <!-- <strong>#6186&nbsp;&nbsp;</strong> -->
+              <!-- <a href="http://arxiv.org/abs/2207.05194" target="_blank">Towards Neural Numeric-To-Text Generation From Temporal Personal Health Data</a> -->
+              <!-- <em>Jonathan Harris and Mohammed Zaki</em> -->
+            <!-- </td></tr> -->
+
+            <!-- <tr><td> -->
+              <!-- <strong>#6772&nbsp;&nbsp;</strong> -->
+              <!-- <a href="http://arxiv.org/abs/2207.02922" target="_blank">Exploring Runtime Decision Support for Trauma Resuscitation</a> -->
+              <!-- <em>Keyi Li, Sen Yang, Travis M. Sullivan, Randall S. Burd and Ivan Marsic</em> -->
+            <!-- </td></tr> -->
+
+            <!-- <tr><td> -->
+              <!-- <strong>#7099&nbsp;&nbsp;</strong> -->
+              <!-- <a href="https://arxiv.org/abs/2207.02941" target="_blank">Boosting the interpretability of clinical risk scores with intervention predictions</a> -->
+              <!-- <em>Eric Loreaux, Ke Yu, Jonas Kemp, Martin Seneviratne, Christina Chen, Steve Yadlowsky, Alexander D'Amour and Ming-Jun Chen</em> -->
+            <!-- </td></tr> -->
+
+            <!-- <tr><td> -->
+              <!-- <strong>#9095&nbsp;&nbsp;</strong> -->
+              <!-- <a href="https://arxiv.org/abs/2206.03256" target="_blank">Flexible Group Fairness Metrics for Survival Analysis</a> -->
+              <!-- <em>Raphael Sonabend, Florian Pfisterer, Alan Mishler, Moritz Schauer, Lukas Burk and Sebastian Vollmer</em> -->
+            <!-- </td></tr> -->
+          <!-- </tbody> -->
+        <!-- </table> -->
+      <!-- </div> -->
+
+    <!-- </div> -->
+    <!-- end papers -->
+
+    <div role="tabpanel" class="tab-pane" id="call"><br>
+      <h2>Call for Papers</h2>
+      <p>We invite full papers, as well as work-in-progress on the application
+      of data science in healthcare.  
+      Topics may include, but not limited to, the following topics (For more information 
+      see <a href="#home" target="_blank">workshop overview</a>) with special focus on
+      generative models for healthcare.
+      </p> 
+      <ul>
+        <li>Synthetic data
+        <ul>
+          <li>Training data augmentation, e.g. in computer vision, medical imaging algorithm</li>
+          <li>Physics- and Chemistry- based generative models</li>
+          <li>Simulated data and privacy preserving algorithms </li>
+          <li>In-silico clinical trials</li>
+          <li>Testing data, e.g. synthetic ground truth</li>
+          <li>Generative AI for tabular data</li>
+          <li>Interpretability</li>
+        </ul></li>
+        <li> Privacy and security of generative AI
+        <ul>
+          <li>Inverse models for source verification</li>
+          <li>Watermark for AI generated data</li>
+          <li>Factual capabilities of generative AI</li>
+        </ul></li>
+        <li> Testing and evaluation of the generative models
+        <ul>
+          <li>Sim2Real domain gap</li>
+          <li>Data selection & quality aspects of the data (distribution shifts, monitoring of the models)</li>
+          <li>Fact-checking</li>
+          <li>Generating new healthcare-specific benchmarks</li>
+          <li>Bias detection and mitigation in healthcare</li>
+          <li>Reliability and trustworthiness of the generative models (actionable plans)</li>
+        </ul></li>
+        <li> Application of LLMs
+        <ul>
+          <li>Systematic literature review</li>
+          <li>Modernizing pharmaceutical call center operations</li>
+          <li>Chatbot for patient registration, triage, scheduling, and rooming</li>
+          <li>Semantic data augmentation</li>
+          <li>Others</li>
+        </ul></li>
+        <li> Responsible use of Generative AI
+        <ul>
+          <li>Generative AI Fairness and Bias detection</li>
+          <li>Generative AI bias mitigation (e.g., adversarial training)</li>
+          <li>Generative AI model transparency</li>
+          <li>Generative AI ethics and responsible AI risk management</li>
+        </ul></li>
+        <li> Other
+        <ul>
+          <li>Knowledge representation learning</li>
+        </ul></li>
+      </ul>
+      <p>Papers must be submitted in PDF format to easychair
+      <a href="https://easychair.org/conferences/?conf=dshealth2023"
+                                                      target="_blank">https://easychair.org/conferences/?conf=dshealth2023</a>
+      and formatted according to the new 
+        <a href="https://www.acm.org/publications/proceedings-template" target="_blank">
+          Standard ACM Conference Proceedings Template
+        </a>. 
+        Authors are encouraged to use the 
+        <a href="https://www.overleaf.com/latex/templates/acm-conference-proceedings-primary-article-template/wbvnghjbzwpc" target="_blank">
+            Overleaf template
+        </a>.
+        Papers must be a maximum length of 4 pages, excluding references.
+      </p>
+
+      <p>The program committee will select the papers based on originality, presentation,
+      and technical quality for spotlight and/or poster presentation.</p>
+      <!-- <p style="color:darkblue">Selected papers will be invited to publish in  -->
+          <!-- <a href="https://www.springer.com/journal/41666" target="_blank">Journal of Healthcare Informatics Research</a> -->
+      <!-- </p> -->
+
+      <!-- <p class="text-info"><strong> -->
+       <!-- The best paper and the best student paper will be awarded 500 travel grant each. -->
+       <!-- Please indicate whether the primary author is a student in the easychair submission form. -->
+      <!-- </strong></p> -->
+    </div>
+    <!-- end call -->
+
+    <div role="tabpanel" class="tab-pane" id="dates"><br>
+      <h2>Key Dates (AOE)</h2>
+      <ul>
+          <li> Paper Submission opens: May 10, 2023</li>
+          <li> Paper Submission deadline: May 28, 2023</li>
+          <li>Acceptance Notice: Jun 20, 2023</li>
+          <li>Workshop Date: Aug 07, 2023</li>
+      </ul>
+      <p>Unless otherwise specified, all deadlines correspond to 11:59 PM Hawaii Standard Time (<a href="https://www.timeanddate.com/worldclock/usa/honolulu" target="_blank"> HST</a>).
+      Workshop will be held based on Eastern Daylight Time (<a href="https://www.timeanddate.com/worldclock/usa/washington-dc" target="_blank">EDT</a>).
+       <!-- For any questions / concerns, please contact us at <a href="mailto:dshealth2019@easychair.org" target="_blank">dshealth2019@easychair.org</a>. -->
+      </p>
+    </div>
+    <!-- end dates -->
+
+
+    <div role="tabpanel" class="tab-pane" id="organizers"><br>
+      <h2>Organizers</h2>
+      <ul>
+          <li><a href="https://wcm-wanglab.github.io/index.html" target="_blank">Fei Wang</a>, Cornell University, USA</li>
+          <li><a href="https://prithwi.github.io" target="_blank">Prithwish Chakraborty</a>, Amazon Science, USA</li>
+          <li><a href="https://scholar.google.com/citations?user=FyNfOOQAAAAJ&hl=en" target="_blank">Tao Xu</a>, F-Hoffmann la Roche, Switzerland</li>
+          <li><a href="http://www.ri.fzv.um.si/gstiglic/" target="_blank">Gregor Stiglic</a>, University of Maribor, Slovenia</li>
+          <li><a href="https://www.linkedin.com/in/pyhsueh/" target="_blank">Pei-Yun Sabrina Hsueh</a>, Pfizer Inc, USA</li>
+          <li><a href="https://www.linkedin.com/in/yaolixia" target="_blank">Lixia Yao</a>, Polygon Health Analytics LLC, USA</li>
+          <li><a href="https://hobi.med.ufl.edu/profile/bian-jiang/" target="_blank">Jiang Bian</a>, University of Florida, USA</li>
+          <li><a href="https://www.linkedin.com/in/alexejgossmann/" target="_blank">Alexej Gossmann</a>, FDA, USA</li>
+          <li><a href="https://scholar.google.com/citations?user=AaPKbPAAAAAJ&hl=en" target="_blank">Florian Buettner</a>, Frankfurt University/German Cancer Research Center (DKFZ), Germany</li>
+      </ul>
+    </div>
+    <!-- end organizers-->
+  </div> <!-- end tab-content -->
+ </div>
+  <!-- end content row -->
+</div> <!--overall container div -->
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="row" style="padding-top: 10px;">
+       <div class="col-sm-12">
+           <ul class="list-unstyled text-centre">
+             <li>&copy; 2023
+             Last Updated: 2023-04-25</li>
+           </ul>
+       </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Jquery -->
+<script type="text/javascript" src="./packages/bootstrap3/js/jquery-3.3.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+<!-- Boostrap JavaScript -->
+<script type="text/javascript" src="packages/bootstrap3/js/bootstrap.min.js"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+<!-- Script to add external linking to tabs -->
+<!-- https://stackoverflow.com/a/35077844 -->
+<script type="text/javascript">
+$(function () {
+    console.log("I am here");
+    var hash = window.location.hash;
+    hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+});
+</script>
+</body>
+</html>
