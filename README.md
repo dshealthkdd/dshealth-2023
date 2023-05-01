@@ -43,7 +43,7 @@ data even more effortless. However, the misinformation that is generated with
 such models may cause a “pollution” of data for future model training. We can
 expect an increased need for effective fact checking approaches. Despite the
 huge growth of this area of research, the actual use of NLP technology for fact
-checking is still in its infancy. In this one day workshop we would like to
+checking is still in its infancy. In this half-day workshop we would like to
 discuss some of the most common applications of generative models in the ML/AI
 research in the healthcare domain, the current challenges and also explore what
 are the potential new areas of application
