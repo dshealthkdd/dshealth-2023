@@ -9,7 +9,7 @@ Webagpe: https://dshealthkdd.github.io/dshealth-2023/
 CALL FOR PAPERS
 ---------------------------------
 
-4 page submissions due by May 23th, 2023
+4 page submissions due by ~~May 23th, 2023~~ Jun 15, 2023
 
 Generative models have a long history and there are many application areas in
 medical machine learning (ML) and artificial intelligence (AI). With the
@@ -53,7 +53,7 @@ Important dates:
 --------------------------
 
 * Paper Submission opens: Apr 30, 2023
-* Paper Submission deadline: May 23, 2023
+* Paper Submission deadline: ~~May 23, 2023~~ Jun 15, 2023
 * Acceptance Notice: Jun 23, 2023
 * Workshop Date: Aug 7, 2023
 
