@@ -54,7 +54,7 @@ Important dates:
 
 * Paper Submission opens: Apr 30, 2023
 * Paper Submission deadline: ~~May 23, 2023~~ Jun 15, 2023
-* Acceptance Notice: Jun 23, 2023
+* Acceptance Notice: ~~Jun 23, 2023~~ Jul 07, 2023
 * Workshop Date: Aug 7, 2023
 
 All deadlines correspond to 11:59 PM Hawaii Standard Time 
