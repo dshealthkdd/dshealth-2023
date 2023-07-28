@@ -36,8 +36,8 @@
       <!-- Tab panes -->
       <ul id="tabs" class="nav nav-tabs navbar-right" role="tablist" >
         <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-        <!-- <li role="presentation"><a href="#program" aria-controls="program" role="tab" data-toggle="tab">Program</a></li> -->
-        <!-- <li role="presentation"><a href="#papers" aria-controls="papers" role="tab" data-toggle="tab">Papers</a></li> -->
+        <li role="presentation"><a href="#program" aria-controls="program" role="tab" data-toggle="tab">Program</a></li>
+        <li role="presentation"><a href="#papers" aria-controls="papers" role="tab" data-toggle="tab">Papers</a></li>
         <li role="presentation"><a href="#call" aria-controls="call" role="tab" data-toggle="tab">Call</a></li>
         <li role="presentation"><a href="#dates" aria-controls="dates" role="tab" data-toggle="tab">Dates</a></li>
         <!-- <li role="presentation"><a href="#speakers" aria-controls="speakers" role="tab" data-toggle="tab">Speakers</a></li> -->
@@ -70,10 +70,12 @@
       <div class="col-xs-12" id="news">
           <h2 style="color:red;">News</h2>
           <ul>
-              <!-- <li>Accepted paper list published. See <a href="#papers" target="_blank">Papers</a>.<br/> -->
-                  <!-- <a href="#program" target="_blank">Program</a> announced -  -->
-                  <!-- <span style="color:red;"><strong>KDD registration (or KDD workshop registration) required to attend</strong>. -->
-              <!-- </li> -->
+              <li><a href="#speaker-banner">Invited Speaker</a> lineup published. </li>
+              <li>Accepted paper list published. See <a href="#papers" target="_blank">Papers</a> and
+                  <a href="#program" target="_blank">Program</a> announced 
+                  <!-- - <span style="color:red;"><strong>KDD registration (or KDD workshop registration) required to attend</strong>. -->
+              </li>
+              <li>Paper acceptance notification updated to Jul 07, 2023</li>
               <li>Paper submission deadline extended to
                   <span style="color:red;"><strong>Jun 15, 2023</strong></span>. 
                   <a href="#dates" target="_blank">See updated dates</a>
@@ -83,11 +85,9 @@
                    <!-- <a href="https://www.springer.com/journal/41666" target="_blank">Journal of Healthcare Informatics Research (JHIR)</a>.  -->
                    <!-- Please see <a href="#call" target="_blank">CFP</a> for more details. -->
               <!-- </li> -->
-              <!-- [> <li><a href="#speaker-banner">Invited Speaker</a> lineup published. </li> <] -->
                   <!-- [> [> Selected papers will be part of the KDD Health Day poster <] <] -->
                   <!-- [> [> session in the evening.  <] <] -->
                   <!-- [> [> See <a href="#papers" target="_blank">Papers</a>.</li> <] <] -->
-              <li>Paper acceptance notification updated to Jul 07, 2023</li>
               <!-- [> [> [> <li>Flyer released <a href="MLMH2018_Flyer.pdf" target="_blank">See Here</a></li> <] <] <] -->
               <!-- [> [> <li><strong>Announcing $500 travel grant each for the best paper and the best student paper, <] <] -->
                       <!-- [> [> selected for the workshop. <] <] -->
@@ -161,180 +161,145 @@
       </div>
       <!-- end overview -->
 
-      <!-- <div class="row" id="speaker-banner"> -->
-        <!-- <h2>Invited Speakers</h2> -->
-        <!-- <div class="col-md-12" id="speaker-banner"> -->
-          <!-- <div class="col-md-4"> -->
-            <!-- <img class="img-responsive img-circle" src="./assets/garcia_headshot.png"  -->
-            <!-- style="max-height: 150px;" -->
-            <!-- alt="Profile Image"></img> <br/> -->
-            <!-- <a href="https://www.linkedin.com/in/victor-garcia-474629198/" target="_blank">Victor Garcia</a> -->
-            <!-- <br/> -->
-            <!-- <span>ORISE Fellow at FDA</span>  -->
-          <!-- </div> -->
+      <div class="row" id="speaker-banner">
+        <h2>Invited Speakers</h2>
+        <div class="col-md-12" id="speaker-banner">
+          <div class="col-md-6">
+            <img class="img-responsive img-circle" src="https://explore.amia.org/profilephoto/7294z000000JD62/F" 
+            style="max-height: 150px;"
+            alt="Profile Image"></img> <br/>
+            <a href="https://amia.org/membership/deepti-pandita-md-facp-famia" target="_blank">Deepti Pandita</a>
+            <br/>
+            <span>Chief Medical Information officer, UC Irvine Health System; <br/>
+                  AMIA physician of the year</span> 
+          </div>
 
-          <!-- <div class="col-md-4"> -->
-            <!-- <img class="img-responsive img-circle" src="./assets/Michel_Friesenhahn.jpg"  -->
-            <!-- style="max-height: 150px;" -->
-            <!-- alt="Profile Image"></img> <br/> -->
-            <!-- <a href="https://www.linkedin.com/in/michel-friesenhahn-74494813/" target="_blank">Michel Friesenhahn</a> -->
-            <!-- <br/> -->
-            <!-- <span>Expert Statistical Scientist at Genentech</span> -->
-          <!-- </div> -->
+          <div class="col-md-6">
+            <img class="img-responsive img-circle" src="https://d1bqvdqmynqyrb.cloudfront.net/_next/image?url=https%3A%2F%2Fresearch-website-prod-ibmers-images.s3.us-east.cloud-object-storage.appdomain.cloud%2F4557&w=384&q=75" 
+            style="max-height: 150px;"
+            alt="Profile Image"></img> <br/>
+            <a href="https://research.ibm.com/people/prasanna-sattigeri" target="_blank">Prasanna Sattigeri</a>
+            <br/>
+            <span>Principal Research Scientist at IBM Research</span>
+          </div>
+        </div>
+        <!-- end first row of speakers -->
+        <div class="col-md-12">
+          <div class="col-md-6">
+            <img class="img-responsive img-circle" src="https://media.licdn.com/dms/image/D5603AQGXOURlV0E83w/profile-displayphoto-shrink_800_800/0/1665597849132?e=2147483647&v=beta&t=QZgdFHfOJAJbbOMSb820-1Wr-3-_emBkIi0KHKhVzOI" 
+            style="max-height: 150px;"
+            alt="Profile Image"></img> <br/>
+            <a href="https://www.linkedin.com/in/ntnaggarwal" target="_blank">Nitin Aggarwal</a>
+            <br/>
+            <span>Head of Cloud AI Service at Google</span>
+          </div>
 
-          <!-- <div class="col-md-4"> -->
-            <!-- <img class="img-responsive img-circle" src="./assets/Li-Zhou-e1636995031637.png"  -->
-            <!-- style="max-height: 150px;" -->
-            <!-- alt="Profile Image"></img> <br/> -->
-            <!-- <a href="https://connects.catalyst.harvard.edu/Profiles/display/Person/74124" target="_blank">Li Zhou </a> -->
-            <!-- <br/> -->
-            <!-- <span>Associate Professor of Medicine, Harvard Medical School; Lead Investigator, Brigham and Women's Hospital</span> -->
-          <!-- </div> -->
-        <!-- </div> -->
-        <!-- [> end first row of speakers <] -->
-        <!-- <div class="col-md-12"> -->
-          <!-- <div class="col-md-4"> -->
-            <!-- <img class="img-responsive img-circle" src="./assets/Lina_Sulieman.jpeg"  -->
-            <!-- style="max-height: 150px;" -->
-            <!-- alt="Profile Image"></img> <br/> -->
-            <!-- <a href="https://www.vumc.org/dbmi/person/lina-sulieman-phd" target="_blank">Lina Sulieman </a> -->
-            <!-- <br/> -->
-            <!-- <span>Research Assistant Professor, Dept. of Biomedical Informatics, VUMC; Member, All of Us Data and Research Center</span> -->
-          <!-- </div> -->
-
-          <!-- <div class="col-md-4"> -->
-            <!-- <img class="img-responsive img-circle" src="./assets/Jimeng.png"  -->
-            <!-- style="max-height: 150px;" -->
-            <!-- alt="Profile Image"></img> <br/> -->
-            <!-- <a href="https://www.sunlab.org/" target="_blank">Jimeng Sun</a> -->
-            <!-- <br/> -->
-            <!-- <span>Health Innovation Professor, Computer Science Department and Carle's Illinois College of Medicine, University of Illinois Urbana Champaign</span> -->
-          <!-- </div> -->
-
-          <!-- <div class="col-md-4"> -->
-            <!-- <img class="img-responsive img-circle" src="./assets/tianfan.jpeg"  -->
-            <!-- style="max-height: 150px;" -->
-            <!-- alt="Profile Image"></img> <br/> -->
-            <!-- <a href="https://futianfan.github.io/" target="_blank">Tianfan Fu </a> -->
-            <!-- <br/> -->
-            <!-- <span>PhD Candidate, Dept. of Computational Science and Engineering, Georgia Institute of Technology</span> -->
-          <!-- </div> -->
-        <!-- </div> -->
-        <!-- [> end second row of speakers <] -->
-      <!-- </div> -->
+          <div class="col-md-6">
+            <img class="img-responsive img-circle" src="https://www.microsoft.com/en-us/research/uploads/prod/2021/02/headshot-602f1600be493.jpg" 
+            style="max-height: 150px;"
+            alt="Profile Image"></img> <br/>
+            <a href="https://www.microsoft.com/en-us/research/people/hoifung/" target="_blank">Hoifung Poon </a>
+            <br/>
+            <span>General Manager, Health Futures, Microsoft</span>
+          </div>
+          <br/>
+        </div>
+        <!-- end second row of speakers -->
+      </div>
       <!-- [> end speaker banner <] -->
     </div>
     <!-- end workshop description -->
     
-    <!-- <div role="tabpanel" class="tab-pane" id="program"><br> -->
-      <!-- <h2>Program</h2> -->
-      <!-- <p>DSHealth 2022 will be held     -->
-         <!-- on August 14, 2022.  See detailed schedule below.  -->
+    <div role="tabpanel" class="tab-pane" id="program"><br>
+      <h2>Program</h2>
+      <p>DSHealth 2023 will be held    
+         on August 07, 2023.  See detailed schedule below. 
          <!-- Selected papers will be invited to publish in  -->
           <!-- <a href="https://www.springer.com/journal/41666" target="_blank">Journal of Healthcare Informatics Research</a> -->
-         <!-- <br/> -->
-         <!-- <br/> -->
-         <!-- Please refer to the <a href="https://kdd.org/kdd2022/programAgenda.html" target="_blank">KDD 2022 program</a> -->
-         <!-- for up-to-date changes on venues and timings. -->
-      <!-- </p> -->
+         <br/>
+         <br/>
+         Please refer to the <a href="https://kdd.org/kdd2023/#" target="_blank">KDD 2023</a>
+         for up-to-date changes on venues and timings.
+      </p>
       
-      <!-- <div class="col-xm-12"> -->
-        <!-- <h3>DSHealth Schedule</h3> -->
-        <!-- [> <p>Venue: Virtual. (Zoom link will be provided in the KDD virtual conference app - KDD registration is required)  <] -->
-          <!-- [> [> &nbsp;<button type="button" class="btn btn-sm btn-secondary"> <] <] -->
-             <!-- [> [> <a href="https://kddvirtual2020.vfairs.com" target="_blank">KDD Virtual Conference Link</a> <] <] -->
-          <!-- [> [> </button> <] <] -->
-          <!-- [> [> &nbsp;<button type="button" class="btn btn-sm btn-secondary"> <] <] -->
-             <!-- [> [> <a href="https://whova.com/portal/webapp/kdd_202008/Agenda/1140638" target="_blank">Whova link</a> <] <] -->
-          <!-- [> [> </button> <] <] -->
-        <!-- [> </p> <] -->
-        <!-- <div class="table-responsive" > -->
-          <!-- <table class="table table-hover"> -->
-            <!-- <thead> -->
-              <!-- [> <th class="col-md-2">SGT</th> <] -->
-              <!-- [> <th class="col-md-2">CEST</th> <] -->
-              <!-- <th class="col-md-2">Time (EDT)</th> -->
-              <!-- <th class="col-md-10">Event</th> -->
-            <!-- </thead> -->
-            <!-- <tbody> -->
-              <!-- <tr class = "info"> -->
-                <!-- <td>Aug 14, 08:00 am - 12:00 pm</td> -->
-                <!-- <td>Session 1</td> -->
-              <!-- </tr> -->
-              <!-- <tr > -->
-                <!-- <td>8:00 am - 8:10 am</td> -->
-                <!-- <td>Introduction</td> -->
-              <!-- </tr> -->
-              <!-- <tr class = "active"> -->
-                <!-- <td>8:10 am - 09:10 am</td> -->
-                <!-- <td>Invited Talk: -->
-            <!-- Li Zhou </td> -->
-              <!-- </tr> -->
-              <!-- <tr > -->
-                <!-- <td>09:10 am - 09:40 am</td> -->
-                <!-- <td>Lightening Talk (9 papers)<br/> -->
-                    <!-- <br/> -->
-<!-- <strong>#161:&nbsp;&nbsp;</strong>Distillation to Enhance the Portability of Risk Models Across Institutions with Large Patient Claims Databases<br/> -->
-<!-- <strong>#744:&nbsp;&nbsp;</strong>FedPseudo: Pseudo value-based Deep Learning Models for Federated Survival Analysis<br/> -->
-<!-- <strong>#2322:&nbsp;&nbsp;</strong>Joint Application of the Target Trial Causal Framework and Machine Learning Modeling to Optimize Antibiotic Therapy: Use Case on Acute Bacterial Skin and Skin Structure Infections due to Methicillin-resistant Staphylococcus aureus<br/> -->
-<!-- <strong>#3660:&nbsp;&nbsp;</strong>Pseudo value-based Deep Neural Networks for Multistate Survival Analysis<br/> -->
-<!-- <strong>#4905:&nbsp;&nbsp;</strong>Using Interpretable Machine Learning to Predict Maternal and Fetal Outcomes<br/> -->
-<!-- <strong>#6154:&nbsp;&nbsp;</strong>Variational Temporal Deconfounder for Individualized Treatment Effect Estimation from Longitudinal Observational Data<br/> -->
-<!-- <strong>#6186:&nbsp;&nbsp;</strong>Towards Neural Numeric-To-Text Generation From Temporal Personal Health Data<br/> -->
-<!-- <strong>#6772:&nbsp;&nbsp;</strong>Exploring Runtime Decision Support for Trauma Resuscitation<br/> -->
-<!-- <strong>#7099:&nbsp;&nbsp;</strong>Boosting the interpretability of clinical risk scores with intervention predictions<br/> -->
-<!-- <strong>#9095:&nbsp;&nbsp;</strong>Flexible Group Fairness Metrics for Survival Analysis<br/> -->
-                <!-- </td> -->
-              <!-- </tr> -->
-              <!-- <tr class = "info"> -->
-                <!-- <td>9:40 am - 10:00 am</td> -->
-                <!-- <td>Break + Poster</td> -->
-              <!-- </tr> -->
-              <!-- <tr > -->
-                <!-- <td>10:00 am - 11:00 am</td> -->
-                <!-- <td>Invited talk: Jimeng Sun</td> -->
-              <!-- </tr> -->
-              <!-- <tr class = "active"> -->
-                <!-- <td>11:00 am - 12:00 am</td> -->
-                <!-- <td>Invited Talk: Lina Sulieman </td> -->
-              <!-- </tr> -->
-              <!-- <tr class = "info"> -->
-                <!-- <td>12:00 pm - 1:00 pm</td> -->
-                <!-- <td>Lunch Break</td> -->
-              <!-- </tr> -->
-              <!-- <tr class = "info"> -->
-                <!-- <td>Aug 14, 1:00 pm - 5:00 pm</td> -->
-                <!-- <td>Session 2</td> -->
-              <!-- </tr> -->
-              <!-- <tr class = "active"> -->
-                <!-- <td>1:00 pm - 2:00 pm</td> -->
-                <!-- <td>Invited Talk: Michel Friesenhahn</td> -->
-              <!-- </tr> -->
-              <!-- <tr > -->
-                <!-- <td>2:00 pm - 3:00 pm</td> -->
-                <!-- <td>Invited Talk: Victor Garcia</td> -->
-              <!-- </tr> -->
-              <!-- <tr class = "info"> -->
-                <!-- <td>3:00 pm - 3:30 pm</td> -->
-                <!-- <td>Break</td> -->
-              <!-- </tr> -->
-              <!-- <tr > -->
-                <!-- <td>3:30 pm - 4:00 pm</td> -->
-                <!-- <td>Poster</td> -->
-              <!-- </tr> -->
-              <!-- <tr > -->
-                <!-- <td>4:00 pm - 4:50 pm</td> -->
-                <!-- <td>Panel discussion</td> -->
-              <!-- </tr> -->
-              <!-- <tr class = "active"> -->
-                <!-- <td>4:50 pm - 5:00 pm</td> -->
-                <!-- <td>Closing session</td> -->
-              <!-- </tr> -->
-            <!-- </tbody> -->
-          <!-- </table> -->
-        <!-- </div> -->
-      <!-- </div> -->
-    <!-- </div> -->
+      <div class="col-xm-12">
+        <h3>DSHealth Schedule</h3>
+        <!-- <p>Venue: Virtual. (Zoom link will be provided in the KDD virtual conference app - KDD registration is required)  -->
+          <!-- [> &nbsp;<button type="button" class="btn btn-sm btn-secondary"> <] -->
+             <!-- [> <a href="https://kddvirtual2020.vfairs.com" target="_blank">KDD Virtual Conference Link</a> <] -->
+          <!-- [> </button> <] -->
+          <!-- [> &nbsp;<button type="button" class="btn btn-sm btn-secondary"> <] -->
+             <!-- [> <a href="https://whova.com/portal/webapp/kdd_202008/Agenda/1140638" target="_blank">Whova link</a> <] -->
+          <!-- [> </button> <] -->
+        <!-- </p> -->
+        <div class="table-responsive" >
+          <table class="table table-hover">
+            <!-- Done processing schedule. N=11 -->
+            <thead>
+              <th>Time slot</th>
+              <th>Event</th>
+            </thead>
+            <tbody>
+              <tr >
+                <td>PDT</td>
+                <td></td>
+              </tr>
+              <tr class = "info">
+                <td>Aug 07, <br/>
+            1:00 pm - 3:00 pm</td>
+                <td>Session 1</td>
+              </tr>
+              <tr >
+                <td>1:00 pm - 1:35 pm</td>
+                <td>Invited Talk:<br/>
+            Deepti Pandita</td>
+              </tr>
+              <tr class = "active">
+                <td>1:35 pm - 2:10 pm</td>
+                <td>Invited Talk:<br/>
+            Prasanna Sattigeri </td>
+              </tr>
+              <tr >
+                <td>2:10 pm - 2:45 pm</td>
+                <td>Invited Talk:<br/>
+            Nitin Aggarwal</td>
+              </tr>
+              <tr class = "active">
+                <td>2:45 pm - 3:00 pm</td>
+                <td>Spotlight Presentation:<br/>
+            #1: Improving Primary Healthcare Workflow Using Extreme Summarization of Scientific Literature Based on Generative AI<br/>
+            #13: Reasoning with Language Modeling for Efficient Longitudinal Understanding of Unstructured Electronic Medical Records</td>
+              </tr>
+              <tr class = "active">
+                <td>3:00 pm - 4:00 pm</td>
+                <td>Break</td>
+              </tr>
+              <tr class = "info">
+                <td>Aug 07, <br/>
+            3:30 pm - 5:00 pm</td>
+                <td>Session 2</td>
+              </tr>
+              <tr >
+                <td>3:30 pm - 3:45 pm</td>
+                <td>Spotlight Presentation:<br/>
+            #12: Bio+Clinical BERT, BERT Base, and CNN Performance Comparison for Predicting Drug-Review Satisfaction<br/>
+            #14: A Novel U-Net Architecture for Denoising of Real-world Noise Corrupted Phonocardiogram Signal</td>
+              </tr>
+              <tr class = "active">
+                <td>3:45 pm - 4:20 pm</td>
+                <td>Invited Talk:<br/>
+            Hoifung Poon</td>
+              </tr>
+              <tr >
+                <td>4:20 pm - 5:00 pm</td>
+                <td>Panel: with all speakers<br/>
+            Moderated by Sabrina Hsueh</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
     <!-- end program -->
 
     <!-- <div role="tabpanel" class="tab-pane" id="speakers"><br> -->
@@ -461,83 +426,55 @@
     <!-- </div> -->
     <!-- end speakers -->
     
-    <!-- <div role="tabpanel" class="tab-pane" id="papers"><br> -->
-      <!-- <h2>Accepted Papers</h2> -->
-      <!-- <p> -->
-      <!-- We have accepted 10 papers for presentation at the workshop. All papers -->
-      <!-- will be presented as posters within the workshop.  -->
-      <!-- PDF version of the final papers, if provided by the authors, are hyperlinked below. -->
-      <!-- </p> -->
+    <div role="tabpanel" class="tab-pane" id="papers"><br>
+      <h2>Accepted Papers</h2>
+      <p>
+      We have accepted 4 papers for presentation at the workshop. All papers
+      will be presented as posters within the workshop. 
+      PDF version of the final papers, if provided by the authors, are hyperlinked below.
+      </p>
 
 
-      <!-- <div class="col-xm-12"> -->
-        <!-- [> <h3>Spotlight Presentations</h3> <] -->
-        <!-- <table class="table table-borderless"> -->
-          <!-- <tbody> -->
-            <!-- <tr><td> -->
-              <!-- <strong>#161&nbsp;&nbsp;</strong> -->
-              <!-- <a href="https://arxiv.org/abs/2207.02445" target="_blank">Distillation to Enhance the Portability of Risk Models Across Institutions with Large Patient Claims Databases</a> -->
-              <!-- <em>Steve Nyemba, Chao Yan, Ziqi Zhang, Amol Rajmane, Pablo Meyer, Prithwish Chakraborty and Bradley Malin</em> -->
-            <!-- </td></tr> -->
+      <div class="col-xm-12">
+        <!-- <h3>Spotlight Presentations</h3> -->
+        <table class="table table-borderless">
+          <tbody>
+            <tr><td>
+              <strong>#1&nbsp;&nbsp;</strong>
+              <!-- <a href="nan" target="_blank"> -->
+              Improving Primary Healthcare Workflow Using Extreme Summarization of Scientific Literature Based on Generative AI
+              <!-- </a> -->
+              <em>Gregor Stiglic, Lucija Gosak, Primož Kocbek, Leon Kopitar, Prithwish Chakraborty, Pablo Meyer, Zhe He and Jiang Bian.</em>
+            </td></tr>
 
-            <!-- <tr><td> -->
-              <!-- <strong>#744&nbsp;&nbsp;</strong> -->
-              <!-- <a href="http://arxiv.org/abs/2207.05247" target="_blank">FedPseudo: Pseudo value-based Deep Learning Models for Federated Survival Analysis</a> -->
-              <!-- <em>Md Mahmudur Rahman and Sanjay Purushotham</em> -->
-            <!-- </td></tr> -->
+            <tr><td>
+              <strong>#13&nbsp;&nbsp;</strong>
+              <!-- <a href="nan" target="_blank"> -->
+              Reasoning with Language Modeling for Efficient Longitudinal Understanding of Unstructured Electronic Medical Records
+              <!-- </a> -->
+              <em>Shivani Shekhar, Simran Tiwari, Thomas Rensink, Ramy Eskander and Wael Salloum</em>
+            </td></tr>
 
-            <!-- <tr><td> -->
-              <!-- <strong>#2322&nbsp;&nbsp;</strong> -->
-              <!-- <a href="https://doi.org/10.48550/arXiv.2207.07458" target="_blank">Joint Application of the Target Trial Causal Framework and Machine Learning Modeling to Optimize Antibiotic Therapy: Use Case on Acute Bacterial Skin and Skin Structure Infections due to Methicillin-resistant Staphylococcus aureus</a> -->
-              <!-- <em>Inyoung Jun, Simone Marini, Christina A. Boucher, J. Glenn Morris, Jiang Bian and Mattia Prosperi</em> -->
-            <!-- </td></tr> -->
+            <tr><td>
+              <strong>#12&nbsp;&nbsp;</strong>
+              <!-- <a href="nan" target="_blank"> -->
+              Bio+Clinical BERT, BERT Base, and CNN Performance Comparison for Predicting Drug-Review Satisfaction
+              <!-- </a> -->
+              <em>Yue Ling</em>
+            </td></tr>
 
-            <!-- <tr><td> -->
-              <!-- <strong>#3660&nbsp;&nbsp;</strong> -->
-              <!-- <a href="http://arxiv.org/abs/2207.05291" target="_blank">Pseudo value-based Deep Neural Networks for Multistate Survival Analysis</a> -->
-              <!-- <em>Md Mahmudur Rahman and Sanjay Purushotham</em> -->
-            <!-- </td></tr> -->
+            <tr><td>
+              <strong>#14&nbsp;&nbsp;</strong>
+              <!-- <a href="nan" target="_blank"> -->
+              A Novel U-Net Architecture for Denoising of Real-world Noise Corrupted Phonocardiogram Signal
+              <!-- </a> -->
+              <em>Ayan Mukherjee, Rohan Banerjee and Avik Ghose.</em>
+            </td></tr>
+          </tbody>
+        </table>
+      </div>
 
-            <!-- <tr><td> -->
-              <!-- <strong>#4905&nbsp;&nbsp;</strong> -->
-              <!-- <a href="https://arxiv.org/abs/2207.05322" target="_blank">Using Interpretable Machine Learning to Predict Maternal and Fetal Outcomes</a> -->
-              <!-- <em>Tomas Bosschieter, Zifei Xu, Hui Lan, Ben Lengerich, Harsha Nori, Kristin Sitcov, Vivienne Souter and Rich Caruana</em> -->
-            <!-- </td></tr> -->
-
-            <!-- <tr><td> -->
-              <!-- <strong>#6154&nbsp;&nbsp;</strong> -->
-              <!-- <a href="https://arxiv.org/abs/2207.11251" target="_blank">Variational Temporal Deconfounder for Individualized Treatment Effect Estimation from Longitudinal Observational Data</a> -->
-              <!-- <em>Zheng Feng, Mattia Prosperi and Jiang Bian</em> -->
-            <!-- </td></tr> -->
-
-            <!-- <tr><td> -->
-              <!-- <strong>#6186&nbsp;&nbsp;</strong> -->
-              <!-- <a href="http://arxiv.org/abs/2207.05194" target="_blank">Towards Neural Numeric-To-Text Generation From Temporal Personal Health Data</a> -->
-              <!-- <em>Jonathan Harris and Mohammed Zaki</em> -->
-            <!-- </td></tr> -->
-
-            <!-- <tr><td> -->
-              <!-- <strong>#6772&nbsp;&nbsp;</strong> -->
-              <!-- <a href="http://arxiv.org/abs/2207.02922" target="_blank">Exploring Runtime Decision Support for Trauma Resuscitation</a> -->
-              <!-- <em>Keyi Li, Sen Yang, Travis M. Sullivan, Randall S. Burd and Ivan Marsic</em> -->
-            <!-- </td></tr> -->
-
-            <!-- <tr><td> -->
-              <!-- <strong>#7099&nbsp;&nbsp;</strong> -->
-              <!-- <a href="https://arxiv.org/abs/2207.02941" target="_blank">Boosting the interpretability of clinical risk scores with intervention predictions</a> -->
-              <!-- <em>Eric Loreaux, Ke Yu, Jonas Kemp, Martin Seneviratne, Christina Chen, Steve Yadlowsky, Alexander D'Amour and Ming-Jun Chen</em> -->
-            <!-- </td></tr> -->
-
-            <!-- <tr><td> -->
-              <!-- <strong>#9095&nbsp;&nbsp;</strong> -->
-              <!-- <a href="https://arxiv.org/abs/2206.03256" target="_blank">Flexible Group Fairness Metrics for Survival Analysis</a> -->
-              <!-- <em>Raphael Sonabend, Florian Pfisterer, Alan Mishler, Moritz Schauer, Lukas Burk and Sebastian Vollmer</em> -->
-            <!-- </td></tr> -->
-          <!-- </tbody> -->
-        <!-- </table> -->
-      <!-- </div> -->
-
-    <!-- </div> -->
+    </div>
     <!-- end papers -->
 
     <div role="tabpanel" class="tab-pane" id="call"><br>
@@ -662,7 +599,7 @@
        <div class="col-sm-12">
            <ul class="list-unstyled text-centre">
              <li>&copy; 2023
-             Last Updated: 2023-04-25</li>
+             Last Updated: 2023-07-28</li>
            </ul>
        </div>
     </div>
